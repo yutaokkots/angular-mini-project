@@ -1,4 +1,40 @@
-# MyApp
+# Angular test app
+
+
+## **Dev server**:
+
+```
+    % ng serve --open 
+```
+
+## **TailwindCSS install**
+
+from the [Tailwind docs](https://tailwindcss.com/docs/guides/angular).
+```
+    % npm install -D tailwindcss postcss autoprefixer
+    % npx tailwindcss init
+```
+<hr>
+
+## Angular component
+
+* HTML 
+* CSS
+* Typescript
+
+Component generation
+
+```
+    % ng generate component game
+```
+
+<hr>
+
+## Resources
+
+[tic-tac-toe game](https://www.youtube.com/watch?app=desktop&v=DFXKBcPMQIg)
+
+<hr>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
