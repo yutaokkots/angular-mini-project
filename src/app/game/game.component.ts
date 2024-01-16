@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-
 enum Player{
   None = "",
   X = "X",
@@ -24,7 +23,7 @@ export class GameComponent {
     if(!this.cells[index] && !this.gameOver){
       this.cells[index] = this.currentPlayer;
       this.checkWinner();
-      this.currentPlayer=this.currentPlayer===Player.X ? Player.O : Player.X;
+      this.currentPlayer = this.currentPlayer===Player.X ? Player.O : Player.X;
     }
   }
 
@@ -50,7 +49,7 @@ export class GameComponent {
     this.cells.fill(Player.None);
     this.currentPlayer = Player.X;
     this.winner = null;
-    this.gameOver=false;
+    this.gameOver = false;
   }
 }
 

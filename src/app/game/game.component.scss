@@ -1,14 +1,14 @@
 .board{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:10px;
-    width:300px;
+    grid-gap: 10px;
+    width: 300px;
     margin-bottom: 20px;
 
 }
 
 .board div{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;

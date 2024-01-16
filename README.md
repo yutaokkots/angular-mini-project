@@ -26,13 +26,16 @@ Component generation
 
 ```
     % ng generate component game
+    -- or --
+    % ng g c game
+
 ```
 
 <hr>
 
 ## Resources
 
-[tic-tac-toe game](https://www.youtube.com/watch?app=desktop&v=DFXKBcPMQIg)
+[reference video for this tic-tac-toe game](https://www.youtube.com/watch?app=desktop&v=DFXKBcPMQIg)
 
 <hr>
 
